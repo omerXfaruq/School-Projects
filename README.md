@@ -7,7 +7,7 @@ https://www.cmpe.boun.edu.tr/undergraduate/curriculum
 
 Course Name, Course Description, Languages Used In It
 -----------------------------------------------------
-Cmpe150- Introduction To Computing                                -Java
+Cmpe150- Introduction To Computing                                -Java "\n"
 Cmpe160- Introduction To Object Oriented Programming              -Java
 Cmpe230- Systems Programming                                      -A86 Assembly, Python ,Qt
 Cmpe240- Digital Systems                                          -iverilog
