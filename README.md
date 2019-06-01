@@ -12,6 +12,7 @@ Cmpe160- Introduction To Object Oriented Programming              -Java
 Cmpe230- Systems Programming                                      -A86 Assembly, Python ,Qt  
 Cmpe240- Digital Systems                                          -iverilog  
 Cmpe250- Data Structures And Algortihms                           -C++  
+Cmpe260- Principles Of Programming Languages                      -Prolog, Scheme
 Cmpe321- Introduction To Database Systems                         -Sql,Html,Java  
-ie306- Systems Simulation                                         -Python, Arena  
+ie306- Systems Simulation                                         -Python, Excel, Arena  
   

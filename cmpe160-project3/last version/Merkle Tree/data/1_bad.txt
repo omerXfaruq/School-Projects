@@ -1,0 +1,13 @@
+data/split/1_bad/00
+data/split/1_bad/01
+data/split/1_bad/02
+data/split/1_bad/03
+data/split/1_bad/04
+data/split/1_bad/05
+data/split/1_bad/06
+data/split/1_bad/07
+data/split/1_bad/08
+data/split/1_bad/09
+data/split/1_bad/10
+data/split/1_bad/11
+data/split/1_bad/12
