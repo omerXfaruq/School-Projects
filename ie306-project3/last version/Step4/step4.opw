@@ -1,0 +1,30 @@
+[RESOURCES]
+counter1
+counter3
+counter2
+[VARIABLES]
+Movie2 Soldout?.NumberOut True
+Movie1 Soldout?.NumberOut True
+Movie3 Soldout?.NumberOut True
+Enough tickets left for movie2.NumberOut False
+Enough tickets left for movie1.NumberOut False
+Enough tickets left for movie3.NumberOut False
+Movie2 Soldout?.NumberOut False
+Movie1 Soldout?.NumberOut False
+Movie3 Soldout?.NumberOut False
+Dispose Argued Customers3.NumberOut
+Create Moviegoer.NumberOut
+Dispose Argued Customers1.NumberOut
+numLeftTickets1
+numLeftTickets3
+numLeftTickets2
+Enough tickets left for movie2.NumberOut True
+Enough tickets left for movie1.NumberOut True
+Enough tickets left for movie3.NumberOut True
+Dispose Argued Customers2.NumberOut
+Dispose Movie2goer.NumberOut
+Dispose Movie1goer.NumberOut
+Dispose Movie3goer.NumberOut
+Dispose Reneging Movie2 Customers.NumberOut
+Dispose Reneging Movie1 Customers.NumberOut
+Dispose Reneging Movie3 Customers.NumberOut
