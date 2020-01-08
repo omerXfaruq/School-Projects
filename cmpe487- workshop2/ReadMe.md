@@ -1,8 +1,7 @@
-Submitted!
-
-
 # python-chat
-Python socket chat program by Ömer Faruk Özdemir via 
+_By FarukOzderim_  
+
+Python socket chat program by Ömer Faruk Özdemir via TCP  
 
 # Environment
 
@@ -47,8 +46,3 @@ also contain a fourth parameter, `optional_argument`. Some samples of each of th
 ``` regex
 [player, 192.168.12.21, message, 'hi there. How are you doing?']
 ```
-
-
-# Tester: 
-
-Tested with Metin Dumandağ
