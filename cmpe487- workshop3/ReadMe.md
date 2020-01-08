@@ -50,8 +50,3 @@ also contain a fourth parameter, `optional_argument`. Some samples of each of th
 ``` regex
 [player, 192.168.12.21, message, hi there. How are you doing?]
 ```
-
-
-# Tester: 
-
-Tested with Fatih İver
