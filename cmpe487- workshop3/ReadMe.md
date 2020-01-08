@@ -1,10 +1,8 @@
-Submitted!
+# zeroconf-chat  
+_By FarukOzderim_  
 
-
-# zeroconf-chat
-Python socket chat program by Ömer Faruk Özdemir
-
-This program uses same logic as zeroconf.
+Python socket chat program.  
+This program uses same logic as zeroconf.  
 
 Broadcast is done in udp, at most 1 per minute.
 Responses are done in tcp unicast.
