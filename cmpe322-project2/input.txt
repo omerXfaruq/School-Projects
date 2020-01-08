@@ -1,0 +1,8 @@
+7
+92,1,cableTV,300
+44,1,electricity,231
+2,2,gas,50
+322,9,telecommunication,30
+123,8,gas,65
+90,9,electricity,100
+1,4,water,40
