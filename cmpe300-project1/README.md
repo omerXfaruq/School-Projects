@@ -1,3 +1,6 @@
+Original repo:
+https://github.com/FarukOzderim/mpi4py-gameOfLife
+
 # mpi4py-gameOfLife
 
 _By FarukOzderim_  
