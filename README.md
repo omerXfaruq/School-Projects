@@ -13,7 +13,7 @@ Cmpe230- Systems Programming                                      &nbsp;&nbsp;&n
 Cmpe240- Digital Systems                                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_-iverilog_  
 Cmpe250- Data Structures And Algortihms                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_-C++_  
 Cmpe260- Principles Of Programming Languages                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_-Prolog, Scheme_     
-Cmpe300- Analysis Of Algorithms                                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_-OpenMpi in Python_    
+Cmpe300- Analysis Of Algorithms                                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_-OpenMpi in Python,mpi4py_    
 Cmpe321- Introduction To Database Systems                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_-Sql,Html,Java_  
 Cmpe322- Operating Systems                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_-C, C++, Linux, Pthread_  
 Cmpe487- Applied Computer Networks                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_-Bash, Python, Gstreamer_   
