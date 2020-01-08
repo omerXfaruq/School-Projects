@@ -1,3 +1,5 @@
+Original Repo: https://github.com/FarukOzderim/cmpe322-project1
+
 cmpe322- project1
 
 **Writing Terminal Program**
