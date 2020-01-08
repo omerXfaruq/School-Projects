@@ -13,7 +13,7 @@ Cmpe230- Systems Programming                                      -A86 Assembly,
 Cmpe240- Digital Systems                                          -iverilog  
 Cmpe250- Data Structures And Algortihms                           -C++  
 Cmpe260- Principles Of Programming Languages                      -Prolog, Scheme   
-Cmpe300- Analysis Of Algorithms                                   -OpenMpi in Python
+Cmpe300- Analysis Of Algorithms                                   -OpenMpi in Python  
 Cmpe321- Introduction To Database Systems                         -Sql,Html,Java  
 Cmpe322- Operating Systems                                        -C, C++, Linux, Pthread  
 Cmpe487- Applied Computer Networks                                -Bash, Python, Gstreamer   
