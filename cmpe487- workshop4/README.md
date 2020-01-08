@@ -1,7 +1,5 @@
-Submitted!
-
-# tcp_over_udp
-By FarukOzderim
+# tcp_over_udp  
+_By FarukOzderim_
 
 This project is file sharing project in local network.
 It is done over udp, bypassing tcp, there are 2 versions.  
