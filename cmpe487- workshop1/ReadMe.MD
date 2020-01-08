@@ -1,12 +1,11 @@
 # nc-chat-bash
-Nc Chat program by Ömer Faruk Özdemir via bash
+_By FarukOzderim_  
 
+This is a bash LAN chat program using netcat. 
 
 # Environment
 
-The chat app is written as a Bash script. I've been testing it on Ubuntu, I got lots of
-errors and warnings, due to the fact that Netcat has many not-fully-compatible implementations.
-`man nc` tells that it's a BSD implementation, but I'm not sure if it's compatible with other BSD implementations.
+BSD NetCat   
 
 The code itself uses several other commands, eg. `ifconfig`, `printf`, `trap`, internally and most of them come with any basic
 shell.
