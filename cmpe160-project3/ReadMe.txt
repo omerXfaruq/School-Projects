@@ -1,1 +1,0 @@
-Java peerToPeer project
