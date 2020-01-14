@@ -1,4 +1,4 @@
-python project using beautifulSoup4 package
+## Python project using beautifulSoup4 package
 
 Taking course info from registration.boun.edu.tr, and giving an analysis of the courses between given semesters.
 
