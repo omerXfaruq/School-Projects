@@ -7,6 +7,7 @@ _By FarukOzderim_
 This is a pthread project, implemented in c++. More information is in the description.
 
 # Run  
-
+''' Bash
 make  
 ./project2 [inputFile]
+'''
