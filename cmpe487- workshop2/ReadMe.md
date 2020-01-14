@@ -1,7 +1,7 @@
 # python-chat
 _By FarukOzderim_  
 
-Python socket chat program by Ömer Faruk Özdemir via TCP  
+Python socket chat program by via TCP  
 
 # Environment
 
