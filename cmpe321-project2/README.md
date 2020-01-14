@@ -6,5 +6,5 @@ javac src/*.java
 java -classpath src/ storageManager inputFile outputFile  
   
   
-Note:  
+# Note:  
 Database files are created under database directory, for reseting the system you can delete that directory.
