@@ -1,9 +1,9 @@
-﻿Database storage manager implemented with java
+Database storage manager implemented in java.  
+_By FarukOzderim_  
+
+# Run
+javac src/*.java  
+java -classpath src/ storageManager inputFile outputFile  
 
 
-Commands to work with:
-javac src/*.java
-java -classpath src/ storageManager inputFile outputFile
-
-
-database files are created under database directory, for reseting the system one can delete that directory.
+Database files are created under database directory, for reseting the system you can delete that directory.
