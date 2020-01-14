@@ -1,1 +1,3 @@
-Functional Programming Project Using DrRacket, Scheme
+## Functional Programming Project Using DrRacket, Scheme  
+
+_By FarukOzderim_
