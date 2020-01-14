@@ -18,4 +18,3 @@ ReliableFileTransfer sends filePackets in single thread. It is slow compared to 
 
 To run it, use python, and run the code in different machines. You can request files from other machine in the directory where code is running.
 
-Tested with myself.
