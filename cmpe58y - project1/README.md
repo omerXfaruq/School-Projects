@@ -1,4 +1,4 @@
-# cmpe58z-hw1-qlearning
+# cmpe58y-Robot Learning-hw1-qlearning
   
   _By FarukOzderim_  
   
