@@ -19,7 +19,7 @@ https://www.cmpe.boun.edu.tr/courses/cmpephd
  | Cmpe322 |  Operating Systems                                         | _-C, C++, Linux, Pthread_  
  | Cmpe478 |  Parallel Processing		                                | _-Bash, C++, OpenMP, OpenMPI_   
  | Cmpe487 |  Applied Computer Networks                                 | _-Bash, Python, Gstreamer_   
- | Cmpe58y |  Robot Learning											| _-Python, OpenGym, Deep Learning_   
+ | Cmpe58y |  Robot Learning											| _-Python, OpenGym, Deep Learning, Reinforcement Learning_   
  | Cmpe58z |  Biometrics                                 				| _-Python_   
  | ie306 |  Systems Simulation                                          | _-Python, Excel, Arena_  
  | ie310 |  Operation Research                                          | _-Gams_  
