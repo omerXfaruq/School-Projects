@@ -20,3 +20,8 @@ mpiexec --oversubscribe -np 8 python3 try.py 5
 Here x needs to divide N.
 
 -time bash timeTesting.sh output.csv  
+
+# Visualization Of Partitioning
+
+
+![Visualization](https://github.com/FarukOzderim/School-Projects/blob/master/cmpe478-project2/visualization.png)
