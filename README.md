@@ -6,10 +6,10 @@ https://www.cmpe.boun.edu.tr/undergraduate/curriculum
 https://www.cmpe.boun.edu.tr/courses/cmpephd  
 
 
-| Course Name | Course Description | Topics |
-| :---:      | :---:       | :---:           |
-| Cmpe150 |  Introduction To Computing                					| _-Java_   
- | Cmpe160 |  Introduction To Object Oriented Programming      			| _-Java_    
+ | Course Name | Course Description | Topics |
+ | :---:      | :---:       | :---:           |
+ | Cmpe150 |  Introduction To Computing                					| _Java_   
+ | Cmpe160 |  Introduction To Object Oriented Programming      			| _Java_    
  | Cmpe230 |  Systems Programming                                       | _A86 Assembly, Python ,Qt_  
  | Cmpe240 |  Digital Systems                                           | _iverilog_  
  | Cmpe250 |  Data Structures And Algortihms                            | _C++_  
