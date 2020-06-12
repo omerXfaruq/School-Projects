@@ -1,0 +1,87 @@
+{% extends "base_template.html" %}
+
+{% block navlinks %}
+  {% include 'navbar.html' %}
+{% endblock %}
+
+{% block content %}
+
+<style>
+  table.simp {
+    border-collapse: separate;
+    border-spacing: 1em;
+  }
+</style>
+
+<div style="padding: 5%;position:relative">
+
+  <h5>Bitcoin Price Index</h5>
+  <div style="border: 1px solid rgb(0, 0, 0); margin: auto;">
+    <table class="simp">
+      <tr>
+        <td>
+          <span>CURRENCY</span>
+        </td>
+        <td>
+          <span>EXCHANGE RATE (per BTC)</span>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <span title="{{ context.rates.USD.description }}"
+            >{{ context.rates.USD.code }}</span
+          >
+        </td>
+        <td>
+          <span style="font-weight: 600;"
+            >{{ context.rates.USD.symbol|safe }}</span
+          >
+          <span>{{ context.rates.USD.rate_float }}</span>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <span title="{{ context.rates.EUR.description }}"
+            >{{ context.rates.EUR.code }}</span
+          >
+        </td>
+        <td>
+          <span style="font-weight: 600;"
+            >{{ context.rates.EUR.symbol|safe }}</span
+          >
+          <span>{{ context.rates.EUR.rate_float }}</span>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <span title="{{ context.rates.GBP.description }}"
+            >{{ context.rates.GBP.code }}</span
+          >
+        </td>
+        <td>
+          <span style="font-weight: 600;"
+            >{{ context.rates.GBP.symbol|safe }}</span
+          >
+          <span>{{ context.rates.GBP.rate_float }}</span>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <small>(Updated on {{ context.time_updated }}, updates every minute.)</small>
+  <div style="text-align: center;">
+    <button style="margin-top: 2em;" onClick="window.location.reload();">
+      Update
+    </button>
+    <br><br>
+    <a href="{{ url_for('coin_ranks') }}"> SEE MORE ALTCOINS</a>
+  </div>
+</div>
+
+<div style="margin: auto;max-width:80%;text-align:center;">
+  <small>{{ context.disclaimer }}</small>
+</div>
+
+{% endblock %}

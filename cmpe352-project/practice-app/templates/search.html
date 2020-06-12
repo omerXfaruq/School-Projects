@@ -1,0 +1,37 @@
+{% extends "base_template.html" %}
+
+{% block navlinks %}
+  {% include 'navbar.html' %}
+{% endblock %}
+
+{% block content %}
+<section class="search-bar">
+  <form action="{{ url_for('search') }}" method="post">
+  <div class="input-group mb-3">
+
+      <input type="text" name="search_param" class="form-control" placeholder="Search" aria-label="Recipient's username" aria-describedby="basic-addon2">
+      <div class="input-group-append">
+        <button class="btn btn-outline-secondary" type="submit">Submit</button>
+      </div>
+  </div>
+  </form>
+  {% if context.param %}
+    <small style="margin:auto">Results for "{{ context.param }}":</small>
+  {% endif %}
+</section>
+<section class="search-results">
+
+  {% for result in context.results %}
+    <div class="card" style="width:100%;max-width:60em">
+      <img src="{{ result.url_picture }}" alt="Avatar">
+      <div class="card-body">
+        <h5 class="card-title">{{ result.name }}</i></h5>
+        <p class="card-text">{{ result.affiliation }}</p>
+        <a href="{{ url_for('profile', name = result.name) }}" class="btn-sm btn-secondary">View Profile</a>
+      </div>
+    </div>
+  {% endfor %}
+
+</section>
+
+{% endblock %}

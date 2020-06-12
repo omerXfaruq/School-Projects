@@ -6,21 +6,24 @@ https://www.cmpe.boun.edu.tr/undergraduate/curriculum
 https://www.cmpe.boun.edu.tr/courses/cmpephd  
 
 
-| Course Name | Course Description | Languages Used |
+| Course Name | Course Description | Topics |
 | :---:      | :---:       | :---:           |
-| Cmpe150 |  Introduction To Computing                | _-Java_   
- | Cmpe160 |  Introduction To Object Oriented Programming      | _-Java_    
- | Cmpe230 |  Systems Programming                                       | _-A86 Assembly, Python ,Qt_  
- | Cmpe240 |  Digital Systems                                           | _-iverilog_  
- | Cmpe250 |  Data Structures And Algortihms                            | _-C++_  
- | Cmpe260 |  Principles Of Programming Languages                       | _-Prolog, Scheme_     
- | Cmpe300 |  Analysis Of Algorithms                                    | _-OpenMpi in Python,mpi4py_    
- | Cmpe321 |  Introduction To Database Systems                          | _-Sql,Html,Java_  
- | Cmpe322 |  Operating Systems                                         | _-C, C++, Linux, Pthread_  
- | Cmpe478 |  Parallel Processing		                                | _-Bash, C++, OpenMP, OpenMPI_   
- | Cmpe487 |  Applied Computer Networks                                 | _-Bash, Python, Gstreamer_   
- | Cmpe58y |  Robot Learning											| _-Python, OpenGym, Deep Learning, Reinforcement Learning_   
- | Cmpe58z |  Biometrics                                 				| _-Python_   
- | ie306 |  Systems Simulation                                          | _-Python, Excel, Arena_  
- | ie310 |  Operation Research                                          | _-Gams_  
+| Cmpe150 |  Introduction To Computing                					| _-Java_   
+ | Cmpe160 |  Introduction To Object Oriented Programming      			| _-Java_    
+ | Cmpe230 |  Systems Programming                                       | _A86 Assembly, Python ,Qt_  
+ | Cmpe240 |  Digital Systems                                           | _iverilog_  
+ | Cmpe250 |  Data Structures And Algortihms                            | _C++_  
+ | Cmpe260 |  Principles Of Programming Languages                       | _Prolog, Scheme_     
+ | Cmpe300 |  Analysis Of Algorithms                                    | _OpenMpi,mpi4py_    
+ | Cmpe321 |  Introduction To Database Systems                          | _Sql,Html,Java_  
+ | Cmpe322 |  Operating Systems                                         | _C, C++, Linux, POSIX_  
+ | Cmpe352 |  Software Engineering		                                | _Github, Backend, Flask_   
+ | Cmpe362 |  Signal Processing 		                                | _Matlab, Signal Processing, Image Processing_
+ | Cmpe478 |  Parallel Processing		                                | _Bash, OpenMP, OpenMPI_   
+ | Cmpe487 |  Applied Computer Networks                                 | _Bash, Python, Sockets, Gstreamer_   
+ | Cmpe492 |  Project 													| _Matlab, Omics Analysis, Raven, Cobra_   
+ | Cmpe58y |  Robot Learning											| _Python, Reinforcement Learning, Gym OpenAI, Robot Learning_   
+ | Cmpe58z |  Biometrics                                 				| _Python, Computer Vision_   
+ | ie306 |  Systems Simulation                                          | _Python, Excel, Arena, Simulation_  
+ | ie310 |  Operation Research                                          | _Gams, Linear Programming_  
   

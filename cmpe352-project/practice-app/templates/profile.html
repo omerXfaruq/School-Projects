@@ -1,0 +1,97 @@
+{% extends "base_template.html" %}
+
+{% block navlinks %}
+  {% include 'navbar.html' %}
+{% endblock %}
+
+{% block content %}
+
+<section class="profile">
+  <div class="profile-card">
+    <div class="profile-img">
+      <img src="{{ context.url_picture }}" alt="" style="object-fit: cover;" />
+      <h3>{{ context.name }}</h3>
+      <div
+        class="profile-numerics"
+        style="font-size: smaller; text-align: center;"
+      >
+        <span>cited {{ context.citedby }} times</span>
+
+        {% if context.i10index %}
+        <br />
+        <span>i10-index: {{ context.i10index }}</span>
+        {% endif %}
+      </div>
+      <a href="https://scholar.google.com/citations?user={{ context.id }}"
+        >Scholar Profile</a
+      >
+    </div>
+    <div class="profile-body">
+      <ul style="max-width: 15em;">
+        <li>
+          <h5>Affiliation:</h5>
+          {{ context.affiliation }} {% if context.interests %}
+        </li>
+
+        <li>
+          <h5>Interests:</h5>
+          {% for interest in context.interests %} • {{ interest }}
+          <br />
+          {% endfor %} {% endif %}
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="recent-publications">
+    <div class="list">
+      <h4>Recent Publications</h4>
+
+      {% for publication in context.publications %}
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">
+            {{ publication.title }} {% if publication.year != "unknown" %} | ({{
+            publication.year }}) {% endif%}
+          </h5>
+
+          <p class="card-text">{{ publication.summary }}</p>
+
+          {% if publication.url != "#" %}
+          <a href="{{ publication.url }}" class="btn-sm btn-secondary"
+            >Go to Paper</a
+          >
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  {% if context.collaborators %}
+  <div class="collaborators">
+    <h4>Collaborators</h4>
+    <div class="list">
+      {% for collaborator in context.collaborators %}
+      <div class="card">
+        <img src="{{ collaborator.url_picture }}" alt="Avatar" />
+        <div class="card-body">
+          <a
+            href="#"
+            style="background-color: transparent; margin: 0; padding: 0;"
+            ><h5 class="card-title"><i>{{ collaborator.name }}</i></h5></a
+          >
+          <div
+            class="profile-numerics"
+            style="font-size: smaller; text-align: center; padding: 0px 10px;"
+          >
+            <span>Affiliation: {{ collaborator.affiliation }}</span>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+</section>
+
+{% endblock %}

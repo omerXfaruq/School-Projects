@@ -1,0 +1,232 @@
+{% extends "base_template.html" %}
+
+{% block navlinks %}
+  {% include 'navbar.html' %}
+{% endblock %}
+
+{% block content %}
+
+<div style="text-align: center; margin: 150px auto; font-size: 18;">
+
+  <style>
+    .apitable {
+      text-align: left;
+      min-width: 20em;
+      max-width: 80%;
+      margin:auto;
+      border-collapse: separate;
+      border-spacing: 0 1em;
+      margin-bottom: 2em;
+    }
+    .apitable tr td {
+      background: #f0f0f0;
+      padding: 1em 3em 1em 3em;
+    }
+    .token {
+      font-weight: 600;
+    }
+  </style>
+
+  <h4>COVID-19</h4>
+  <table id="coronavirus" class="apitable" style="width:100%;">
+
+    <tr>
+      <td>
+        <h5>Coronavirus</h5>
+        <span>
+          <code>$ curl "https://.../api/coronavirus"</code>
+          <a href="{{ url_for('api_coronavirus') }}">⤴️</a>
+
+        </span>
+      </td>
+      <td style="width:25%;">
+        <p>
+          Covid-19 statistics for every country.
+        </p>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <h5>Coronavirus Country Live</h5>
+        <span>
+          <code>$ curl -d "country=france" "https://.../api/coronavirusCountryLive"</code>
+          <a href="{{ url_for('api_coronavirusCountryLive') }}">⤴️</a>
+
+        </span>
+      </td>
+      <td style="width:25%;">
+        <p>
+          Search data for a specific country
+        </p>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <h5>World Statistics</h5>
+        <span>
+          <code>$ curl "https://.../api/worldStats"</code>
+          <a href="{{ url_for('api_world_stats') }}">⤴️</a>
+
+        </span>
+      </td>
+      <td style="width:25%;">
+        <p>
+          Get world statistics for coronavirus
+        </p>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <h5>Coronavirus By Country</h5>
+        <span>
+          <code>$ curl -d "country=germany" "https://.../api/coronavirusByCountry"</code>
+          <a href="{{ url_for('api_coronavirusByCountry') }}">⤴️</a>
+
+        </span>
+      </td>
+      <td style="width:25%;">
+        <p>
+          Get coronavirus related information for a country
+        </p>
+      </td>
+    </tr>
+
+  </table>
+
+  <h4>CRYPTOCURRENCY</h4>
+  <table id="cryptocurrency" class="apitable" style="width:100%;">
+
+    <tr>
+      <td>
+        <h5>Bitcoin Price</h5>
+        <span>
+          <code>$ curl "https://.../api/bitcoinprice"</code>
+          <a href="{{ url_for('api_bitcoin_price') }}">⤴️</a>
+
+        </span>
+      </td>
+      <td style="width:25%;">
+        <p>
+          Returns the price of bitcoin in Euro, U.S. Dollar and Pound. <br>
+        </p>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <h5>Coin Ranks</h5>
+        <span>
+          <code>$ curl "https://.../api/coinranks"</code>
+          <a href="{{ url_for('api_coin_ranks') }}">⤴️</a>
+
+        </span>
+      </td>
+      <td style="width:25%;">
+        <p>
+          Returns prices of some alt-coins in U.S. dollars.
+        </p>
+      </td>
+    </tr>
+
+  </table>
+
+
+  <h4>SCHOLARLY</h4>
+  <table id="scholarly" class="apitable">
+
+    <tr>
+      <td>
+        <h5>Search Author</h5>
+        <span>
+          <code>$ curl -d "name=ali" https://.../api/search"</code>
+          <a href="{{ url_for('api_search') }}">⤴️</a>
+          <br>
+          <small><span class="token">name</span>: name to be searched</small>
+        </span>
+      </td>
+      <td style="width:25%;">
+        <p>
+          Performs a google-scholar user search using scholarly
+        </p>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <h5>Get Author's Publications</h5>
+        <span>
+          <code>$ curl "https://.../api/authorpublications?name=cemre?_range=3"</code>
+          <a href="{{ url_for('api_authorpublications') }}">⤴️</a>
+          <br>
+          <small>
+            <span class="token">name</span>: name of the user
+              <br>
+            <span class="token">_range</span>: number of maximum publications to list</small>
+        </span>
+      </td>
+      <td style="width:25%;">
+        <p>
+          Gets publications of a user using scholarly
+        </p>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <h5>Publication Search</h5>
+        <span>
+          <code>$ curl "https://.../api/publicationsearch?name=quantum"</code>
+          <a href="{{ url_for('api_publicationsearch') }}">⤴️</a>
+          <br>
+          <small><span class="token">name</span>: the token to be searched in the publication name</small>
+        </span>
+      </td>
+      <td style="width:25%;">
+        <p>
+          Performs a publication search using scholarly
+        </p>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <h5>Author Stats</h5>
+        <span>
+          <code>$ curl "https://.../api/authorstats?name=doğu"</code>
+          <a href="{{ url_for('api_authorstats') }}">⤴️</a>
+          <br>
+          <small><span class="token">name</span>: name of the user</small>
+        </span>
+      </td>
+      <td style="width:25%;">
+        <p>
+          Returns stats for the user from scholarly
+        </p>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <h5>Profile Data</h5>
+        <span>
+          <code>$ curl "https://.../api/profiledata?name=salih"</code>
+          <a href="{{ url_for('api_profile_data') }}">⤴️</a>
+          <br>
+          <small><span class="token">name</span>: name of the user</small>
+        </span>
+      </td>
+      <td style="width:25%;">
+        <p>
+          Returns all data to be displayed on a user's Akademise profile
+        </p>
+      </td>
+    </tr>
+
+  </table>
+
+</div>
+
+{% endblock %}
