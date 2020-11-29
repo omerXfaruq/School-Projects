@@ -21,7 +21,7 @@ https://www.cmpe.boun.edu.tr/courses/cmpephd
  | Cmpe362 |  Signal Processing 		                                | _Matlab, Signal Processing, Image Processing_
  | Cmpe478 |  Parallel Processing		                                | _Bash, OpenMP, OpenMPI_   
  | Cmpe487 |  Applied Computer Networks                                 | _Bash, Python, Sockets, Gstreamer_   
- | Cmpe492 |  Project 													| _Matlab, Omics Analysis, Raven, Cobra_   
+ | Cmpe492 |  Senior Project 													| _Matlab, Transcriptomics Analysis, Kallisto, Raven, Cobra_   
  | Cmpe58y |  Robot Learning											| _Python, Reinforcement Learning, Gym OpenAI, Robot Learning_   
  | Cmpe58z |  Biometrics                                 				| _Python, Computer Vision_   
  | ie306 |  Systems Simulation                                          | _Python, Excel, Arena, Simulation_  
