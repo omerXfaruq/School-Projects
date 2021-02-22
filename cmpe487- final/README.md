@@ -1,5 +1,3 @@
-Original Repo: https://github.com/FarukOzderim/video-chat  
-
 Collaborated with @srknzl
 
 ![Screenshot1](./ss/1.png)
