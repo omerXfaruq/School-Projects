@@ -1,5 +1,7 @@
 Original Repo: https://github.com/FarukOzderim/video-chat  
 
+Collaborated with @srknzl
+
 ![Screenshot1](./ss/1.png)
 # Transporter ~ LAN video/group video chat, text chat application
 * Use this application with ethernet in order to get good video and audio quality, this application is not intended for wifi. We tried optimizing wifi but due to packet losses we could not achive it.   
