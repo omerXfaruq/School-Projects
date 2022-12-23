@@ -1,6 +1,6 @@
 # PhD-Projects
 
-These are my projects from my PhD in Penn State University, Computer Science and Engineering department, you can find course materials from [README.md](https://farukozderim.github.io/PhD-Courses/) as well.
+These are my projects from my PhD in Penn State University, Computer Science and Engineering department, you can find course materials from [here](https://farukozderim.github.io/PhD-Courses/) as well.
 
 
 For more info about the courses:  
