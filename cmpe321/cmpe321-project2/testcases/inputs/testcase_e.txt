@@ -1,9 +1,0 @@
-create type book 2 author name
-search record book -1
-create record book 0 0
-create record book -1 -1
-search record book -1
-update record -1 2
-search record book -1
-delete record book -1
-search record book 0

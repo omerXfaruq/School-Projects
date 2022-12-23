@@ -1,7 +1,0 @@
-list record Human
-create type cat 3 name age species
-list record cat
-search record cat 5 
-delete type cat 
-delete type Human
-search record Human 1

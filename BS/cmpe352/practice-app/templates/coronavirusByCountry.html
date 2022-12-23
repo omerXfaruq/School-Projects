@@ -1,0 +1,56 @@
+{% extends "base_template.html" %}
+
+{% block navlinks %}
+  {% include 'navbar.html' %}
+{% endblock %}
+
+{% block content %}
+
+<section class="search-bar">
+  <form action="{{ url_for('coronavirusByCountry') }}" method="post">
+    <div class="input-group mb-3">
+      <input
+        type="text"
+        name="search_param"
+        class="form-control"
+        placeholder="Search"
+        aria-label="Recipient's username"
+        aria-describedby="basic-addon2"
+      />
+      <div class="input-group-append">
+        <button class="btn btn-outline-secondary" type="submit">Submit</button>
+      </div>
+    </div>
+  </form>
+  {% if context.param %}
+  <small style="margin: auto;">Results for "{{ context.param }}":</small>
+  {% endif %}
+</section>
+<section class="search-results">
+  <table class="table table-dark">
+    <thead>
+      <tr>
+        <th scope="col">Date</th>
+        <th scope="col">Province</th>
+        <th scope="col">Confirmed Cases</th>
+        <th scope="col">Deaths</th>
+        <th scope="col">Recovered</th>
+        <th scope="col">Active Cases</th>
+      </tr>
+    </thead>
+    {% for result in context.results %}
+    <tbody>
+      <tr>
+        <td>{{ result.date }}</td>
+        <td>{{ result.province }}</td>
+        <td>{{ result.confirmed }}</td>
+        <td>{{ result.deaths }}</td>
+        <td>{{ result.recovered }}</td>
+        <td>{{ result.active }}</td>
+      </tr>
+    </tbody>
+    {% endfor %}
+  </table>
+</section>
+
+{% endblock %}

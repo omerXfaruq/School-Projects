@@ -1,8 +1,0 @@
-delete type topCar
-delete type topcar
-delete type book
-delete type COUNTRY
-delete type course
-delete type patient
-delete type song
-delete type student

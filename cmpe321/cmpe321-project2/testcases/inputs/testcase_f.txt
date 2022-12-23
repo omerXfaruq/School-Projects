@@ -1,4 +1,0 @@
-create type COUNTRY 3 name code population
-create record COUNTRY 1 93 12000000
-create record COUNTRY 10 10	5000000
-list record COUNTRY

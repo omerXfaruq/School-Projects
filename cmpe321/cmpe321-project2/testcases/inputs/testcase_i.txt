@@ -1,6 +1,0 @@
-create type song 3 title artist album
-create record song 100 1 10
-create record song 40 2 1
-search record song 100
-create record song 60 3 5
-search record song 60

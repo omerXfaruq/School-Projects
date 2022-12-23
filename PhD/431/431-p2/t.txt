@@ -1,0 +1,57 @@
+Writeback, Wrote 19 to address 140414183051360
+Tag was: 3538289217 Index was: 1
+Writeback, Wrote 2 to address 140414183051368
+Tag was: 3538289217 Index was: 1
+Writeback, Wrote 1 to address 140414183051376
+Tag was: 3538289217 Index was: 1
+Writeback, Wrote 9 to address 140414183051384
+Tag was: 3538289217 Index was: 1
+Writeback, Wrote 2 to address 140414183051360
+Tag was: 3538289217 Index was: 1
+Writeback, Wrote 27 to address 140414183051368
+Tag was: 3538289217 Index was: 1
+Writeback, Wrote 9 to address 140414183051376
+Tag was: 3538289217 Index was: 1
+Writeback, Wrote 0 to address 140414183051384
+Tag was: 3538289217 Index was: 1
+Writeback, Wrote 9 to address 140414183051360
+Tag was: 3538289217 Index was: 1
+Writeback, Wrote 0 to address 140414183051368
+Tag was: 3538289217 Index was: 1
+Writeback, Wrote 139 to address 140414183051376
+Tag was: 3538289217 Index was: 1
+Writeback, Wrote 0 to address 140414183051384
+Tag was: 3538289217 Index was: 1
+[ [	               4	               2 ]
+  [	               1	               9 ] ]
+
+Statistics for cache L1:
+	Read Hits	11
+	Write Hits	0
+	Read Misses	5
+	Write Misses	4
+	Evictions	7
+	Writebacks	3
+
+	Total Access Count	20
+	Local Miss Rate	 45%
+
+
+Statistics for cache L2:
+	Read Hits	32
+	Write Hits	12
+	Read Misses	4
+	Write Misses	0
+	Evictions	0
+	Writebacks	0
+
+	Total Access Count	48
+	Local Miss Rate	8.333%
+
+
+Statistics for memory MainMem:
+	Read Hits	16
+	Write Hits	0
+
+
+Main Memory = { ... }

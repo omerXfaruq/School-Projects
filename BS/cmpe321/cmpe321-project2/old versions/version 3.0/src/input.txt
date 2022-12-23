@@ -1,0 +1,51 @@
+create type met 3 name age species
+list type
+create record met 1 1 1
+create record met 2 1 1
+create record met 3 1 1
+create record met 4 1 1
+create record met 5 1 1
+create record met 6 1 1
+create record met 7 1 1
+create record met 8 1 1
+create record met 9 1 1
+create record met 10 1 1
+create record met 11 1 1
+create record met 12 1 1
+create record met 13 1 1
+create record met 14 1 1
+create record met 15 1 1
+create record met 16 1 1
+create record met 17 1 1
+create record met 18 1 1
+create record met 19 1 1
+create record met 20 1 1
+create record met 21 1 1
+create record met 30 1 1
+
+
+create record met 40 1 1
+
+create record met 50 1 1
+create record met 60 1 1
+create record met 70 1 1
+create record met 80 1 1
+create record met 90 1 1
+list record met
+delete record met 15
+delete record met 16
+delete record met 17
+delete record met 18
+delete record met 19
+delete record met 20
+delete record met 21
+delete record met 30
+delete record met 40
+delete record met 50
+delete record met 60
+delete record met 70
+delete record met 80
+delete record met 90
+list record met
+delete type met
+

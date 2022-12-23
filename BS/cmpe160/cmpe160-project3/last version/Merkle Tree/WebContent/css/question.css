@@ -1,0 +1,37 @@
+.eclipse {
+	width: 20px;
+	height: 20px
+}
+
+.tab {
+	margin-left: 30px
+}
+
+.col-lg-12 div {
+	margin-bottom: 20px;
+	align: center
+}
+
+html {
+	font-family: sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%
+}
+
+body {
+	margin: 30;
+	line-height: 130%
+}
+
+code, kbd, pre, samp {
+	font-family: Menlo, Monaco, Consolas, "Courier New", monospace
+}
+
+code {
+	padding: 2px 4px;
+	font-size: 90%;
+	color: #c7254e;
+	white-space: nowrap;
+	background-color: #fbf9fb;
+	border-radius: 4px
+}

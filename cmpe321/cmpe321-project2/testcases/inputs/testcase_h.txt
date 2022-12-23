@@ -1,8 +1,0 @@
-create type patient 3 name age sex
-create record patient 2 45 1
-create record patient 0 60 0
-create record patient 1 75 0
-delete record patient 1
-list record patient
-create record patient 1 55 0
-list record patient

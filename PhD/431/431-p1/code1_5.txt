@@ -1,0 +1,12 @@
+# Assume B starts at 128. A starts at 0.
+#
+# for (i=0; i<32; i++)
+#   A[i] = B[i] + B[i+1];
+
+addi $1, $1, 128 | nop | nop | nop
+L: addi $1, $1, -16 | nop | lw $5, 112($1)  |  lw $6, 116($1)
+nop| nop | lw $7, 136($1)  | lw $8, 140($1)
+add $10, $5, $6 | nop | lw $9, 144($1) | nop 
+add $11, $7, $6  | add $12, $7, $8 | nop | sw $10, 0($1)
+add $13, $8, $9  | nop |  sw $12, 8($1) | sw $11, 4($1)
+bne $1, $0, L | nop | nop | sw $13, 12($1)

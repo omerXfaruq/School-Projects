@@ -1,0 +1,13 @@
+Total waiting time    
+Average waiting time  
+Average number of tickets sold
+Average number of tickets sold to one customer
+Average time until all movies sold out
+Average number of people that argue and leave
+
+Number of people reneged for movie 1
+Number of people reneged for movie 2
+Number of people reneged for movie 3
+
+Average number of people satisfied
+Average utilization

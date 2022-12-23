@@ -1,7 +1,0 @@
-create type topcar 4 Brand Speed Year Score
-create record topcar 0 12345678 2019 0
-create record topcar 1 12345678 2019 0
-create record topcar 2 12345678 2019 0
-update record topcar 0 87654321 2019 0
-delete record topcar 1
-list record topcar

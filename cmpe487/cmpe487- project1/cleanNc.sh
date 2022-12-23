@@ -1,2 +1,0 @@
-pkill bash
-pkill nc

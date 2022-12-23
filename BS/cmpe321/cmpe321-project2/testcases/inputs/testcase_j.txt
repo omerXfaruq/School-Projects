@@ -1,0 +1,9 @@
+create type student 3 no name dep 
+create record student 204 1 400
+create record student 150 2 401
+create type lecturer 2 name dep
+create record lecturer 1 400
+create record lecturer 2 400
+delete type lecturer
+search record student 204
+

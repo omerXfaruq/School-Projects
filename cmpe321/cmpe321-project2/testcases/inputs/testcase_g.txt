@@ -1,6 +1,0 @@
-create type course 4 code name credit quota
-create record course 0 150 3 50
-create record course 1 160 3 80
-create record course 2 300 4 100
-update record course 0 150 3 100
-list record course 
