@@ -4,7 +4,9 @@ These are my projects from my PhD in Penn State University, Computer Science and
 
 
 For more info about the courses:  
+
 https://bulletins.psu.edu/university-course-descriptions/graduate/cse/
+
 https://www.eecs.psu.edu/
 
  | Course Name | Course Description | Topics |
